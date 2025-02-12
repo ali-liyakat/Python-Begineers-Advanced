@@ -24,6 +24,18 @@ class CricketPlayer:
         return f"{self.fname} {self.lname} is a cricket player from {self.team_name}"
 
 
+# operator overloading
+    def __lt__(self, other):
+        self_avg_score = self.get_avg_score()
+        other_avg_score = other.get_avg_score()
+        return self.get_avg_score() < other.get_avg_score()
+
+
+    def __eq__(self, value):
+        self_age = self.get_age()
+        other_age = value.get_age()
+        return self_age == other_age
+
 # Creating an object of CricketPlayer class
 virat = CricketPlayer('Virat', 'Kohli', 1988, 'India')
 virat.add_score(100)
@@ -37,5 +49,17 @@ print(virat.scores)
 print(virat.get_avg_score())
 print(virat.get_age())
 
+david = CricketPlayer('David', 'Warner', 1986, 'Australia')
+david.add_score(150)
+david.add_score(80)
+david.add_score(20)
+
+
+print(virat.get_avg_score())
+print(david.get_avg_score())
+
 
 print(virat)
+
+print(virat < david) 
+print(virat == david)
