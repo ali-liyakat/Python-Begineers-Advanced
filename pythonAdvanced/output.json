@@ -1,0 +1,14 @@
+{
+    "name": "Ali",
+    "age": 36,
+    "is_employ": false,
+    "skills": [
+        "Python",
+        "Data Analysis",
+        "ML"
+    ],
+    "addresses": {
+        "street": "36 main street",
+        "city": "Keelung"
+    }
+}
