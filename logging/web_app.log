@@ -1,0 +1,13 @@
+2025-02-18 20:03:58,694 - INFO - User Dhaval Patel logged in
+2025-02-18 20:03:58,694 - INFO - Data processed: good_data
+2025-02-18 20:03:58,694 - INFO - User Dhaval Patel logged out
+2025-02-18 20:06:12,084 - INFO - User Dhaval Patel logged in
+2025-02-18 20:06:12,084 - ERROR - Error processing data: Invalid data
+Traceback (most recent call last):
+  File "C:\Users\alili\Python-Begineers-Advanced\logging\02-logging.py", line 20, in process_data
+    raise ValueError("Invalid data")
+ValueError: Invalid data
+2025-02-18 20:06:12,098 - INFO - User Dhaval Patel logged out
+2025-02-18 20:07:19,666 - INFO - User Dhaval Patel logged in
+2025-02-18 20:07:19,667 - ERROR - Error processing data: Invalid data
+2025-02-18 20:07:19,667 - INFO - User Dhaval Patel logged out
