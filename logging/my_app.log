@@ -1,0 +1,12 @@
+2025-02-18 20:14:17,118 -my_logger -  DEBUG - Debug message from my_logger
+2025-02-18 20:14:17,118 -my_logger -  INFO - Info message from my_logger
+2025-02-18 20:14:17,118 -my_logger -  WARNING - Warning message from my_logger
+2025-02-18 20:14:17,118 -my_logger -  ERROR - Error message from my_logger
+2025-02-18 20:14:17,118 -my_logger -  CRITICAL - Error message from my_logger
+2025-02-18 20:19:42,735 - my_logger -  DEBUG - Debug message from my_logger
+2025-02-18 20:19:42,735 - my_logger -  INFO - Info message from my_logger
+2025-02-18 20:19:42,736 - my_logger -  WARNING - Warning message from my_logger
+2025-02-18 20:19:42,736 - my_logger -  ERROR - Error message from my_logger
+2025-02-18 20:19:42,736 - my_logger -  CRITICAL - Error failed payment
+2025-02-18 20:19:42,736 - payment_processor -  CRITICAL - Error message from my_logger
+2025-02-18 20:19:42,736 - payment_processor -  CRITICAL - Error message from my_logger
